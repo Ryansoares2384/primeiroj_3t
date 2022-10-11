@@ -1,4 +1,7 @@
-# primeiroj_3t  
-Indentificação:    
-Nome:Ryan Costa Soares     N 24
-Assuntos:HTML,CSS e Javascript
+# Terceiro Trimestre
+
+## Identificação
+Nome: Jesus   Nr. 50
+
+## Assuntos
+HTML, CSS e JavaScript
