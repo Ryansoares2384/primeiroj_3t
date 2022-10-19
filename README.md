@@ -1,7 +1,7 @@
 # Terceiro Trimestre
 
 ## Identificação
-Nome: Jesus   Nr. 50
+Nome: Ryan Costa Soares   Nr. 24
 
 ## Assuntos
 HTML, CSS e JavaScript
