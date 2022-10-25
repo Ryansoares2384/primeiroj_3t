@@ -1,5 +1,3 @@
-// console.log("Console: Alô Mundo...");
-// alert("Alerta: Alô mundo...");
 let tabuada = 4;
 
 
@@ -38,14 +36,20 @@ function quadrado(){
 function total(){
    let val = document.getElementById("valor").value;
    let ju = document.getElementById("juros").value;
+   
+   if(!Number(val)){
+      alert("O valor deve ser um número.");
+      document.getElementById("valor").value = "";
+      document.getElementById("valor").focus();
+      return 
+   }
+   if(!Number(ju)){
+      alert("O valor dos juros deve ser um número.");
+      document.getElementById("juros").value = "";
+      document.getElementById("juros").focus();
+      return 
+   }
+
    let resultado = (val * (1+ (ju/100)));
    document.write("O resultado é " + resultado);
-}
-// Divisão é / 
-// Multiplição é *
-function soma(){
-   let v1 = document.getElementById("v1").value;
-   let v1 = document.getElementById("v2").value; 
-   let r = (v1 + v2); 
-   document.getElementById("resultado").innerHTML = r;
 }
